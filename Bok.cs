@@ -10,11 +10,5 @@ public class Bok
 
     // YearPublished (int)
     public int YearPublished {get;set;}
-
-    public Bok (string title, string author, int yearpublished)
-        {
-            Title = title;
-            Author = author;
-            YearPublished = yearpublished;
-        }
+    public bool IsLoaned = false;
 }
